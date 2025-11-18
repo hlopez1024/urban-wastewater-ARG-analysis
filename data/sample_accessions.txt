@@ -1,1 +1,6 @@
 SRR35411697  # Hospital B
+SRR35411699  # Hospital A -Shaker
+SRR35551259  # Municipal Wastewater DNR 2
+SRR35551260  # Municipal Wastewater DNR 1
+SRR35995129  # 16S metabarcoding of aquatic metagenome: riverine
+SRR35995132  # 16S metabarcoding of aquatic metagenome: riverine
