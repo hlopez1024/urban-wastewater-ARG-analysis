@@ -1,2 +1,6 @@
-read1	sul1	90.0	70	1e-9	140
-read2	tetA	88.0	75	1e-8	130
+read1	sul1	94.5	92	4e-15	162
+read2	sul1	94.0	91	5e-15	160
+read3	sul1	93.5	90	6e-15	158
+read4	tetA	93.0	95	7e-15	170
+read5	tetA	92.5	94	8e-15	168
+read6	tetA	92.0	93	9e-15	166
