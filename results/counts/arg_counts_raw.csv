@@ -1,0 +1,5 @@
+sseqid,Hospital_A,Hospital_B,DNR1,DNR2,River1,River2
+blaTEM,1,1,1,1,0,0
+blaCTXM,1,1,0,0,0,0
+sul1,1,1,1,0,1,1
+tetA,1,0,1,1,0,1
