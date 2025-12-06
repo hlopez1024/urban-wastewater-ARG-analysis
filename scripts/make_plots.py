@@ -16,14 +16,14 @@ if not os.path.exists(SUMMARY_PATH):
 # Load summary metrics: total_RPM, richness, shannon
 summary = pd.read_csv(SUMMARY_PATH, index_col=0)
 
-# 1) Plot total ARG abundance (RPM) per sample
+# 1) Plot total ARG hits (raw counts) per sample
 plt.figure()
-summary["total_RPM"].plot(kind="bar")
-plt.ylabel("Total ARG abundance (RPM)")
+summary["total_hits"].plot(kind="bar")
+plt.ylabel("Total ARG BLAST hits")
 plt.xlabel("Sample")
-plt.title("Total antibiotic resistance gene abundance per sample")
+plt.title("Total antibiotic resistance gene hits per sample")
 plt.tight_layout()
-plt.savefig(os.path.join(FIG_DIR, "total_ARG_RPM_per_sample.png"))
+plt.savefig(os.path.join(FIG_DIR, "total_ARG_hits_per_sample.png"))
 plt.close()
 
 # 2) Plot richness per sample
