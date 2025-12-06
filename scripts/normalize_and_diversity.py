@@ -27,10 +27,12 @@ def shannon(col):
     return -(p * np.log(p)).sum()
 
 summary = pd.DataFrame({
-    "total_RPM": rpm.sum(axis=0),
+    "total_hits": df.sum(axis=0),          # total BLAST hits per sample (raw counts)
+    "total_RPM": rpm.sum(axis=0),          # will be ~1e6 for each sample
     "richness": (rpm > 0).sum(axis=0),
     "shannon": rpm.apply(shannon, axis=0)
 })
+
 
 summary.to_csv(f"{OUT_DIR}/arg_summary_metrics.csv")
 print("DONE: summary metrics created")
