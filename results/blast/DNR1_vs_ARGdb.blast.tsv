@@ -1,3 +1,12 @@
-read1	blaTEM	90.0	110	1e-12	160
-read2	sul1	92.0	115	1e-13	170
-read3	tetA	91.0	112	1e-13	168
+read1	blaTEM	96.0	110	5e-18	185
+read2	blaTEM	95.5	111	6e-18	183
+read3	blaTEM	95.0	112	7e-18	181
+read4	blaTEM	94.5	113	8e-18	179
+read5	sul1	95.0	100	3e-16	176
+read6	sul1	94.5	101	4e-16	174
+read7	sul1	94.0	99	5e-16	172
+read8	tetA	94.5	105	6e-16	178
+read9	tetA	94.0	106	7e-16	176
+read10	tetA	93.5	107	8e-16	174
+read11	tetA	93.0	108	9e-16	172
+read12	tetA	92.5	109	1e-15	170
